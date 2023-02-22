@@ -34,6 +34,7 @@ public class AdminController {
 	@GetMapping("/admin")
 	public String adminPage()
 	{
+
 		return "adminHome";
 	}
 	// category section
